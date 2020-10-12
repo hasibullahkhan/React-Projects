@@ -30,4 +30,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: Deploying using surge 
-        run: surge ./ profile-hasib.surge.sh --token ${{ secrets.SURGE_TOKEN }} 
+        run: surge ./ profile_hasib.surge.sh --token ${{ secrets.SURGE_TOKEN }} 
